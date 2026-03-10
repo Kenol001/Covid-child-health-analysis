@@ -1,0 +1,18 @@
+# VS Code workspace settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CS50 compiled files
+*.o
+*.out
+*.class
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Optional: environment or secret files
+.env
