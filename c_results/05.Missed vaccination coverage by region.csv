@@ -1,0 +1,4 @@
+"region","late_vaccine_flag","received_missed","did_not_receive_missed","perc_received_late","perc_did_not_receive_missed"
+City,20,5,3,25.0,75.0
+Rural,6,1,1,16.7,83.3
+Suburban,27,5,0,18.5,81.5
