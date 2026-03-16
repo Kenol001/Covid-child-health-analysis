@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains the detailed documentation for the **Child Health and Vaccination Analysis** project. The documentation explains the analytical process used to explore vaccination coverage, risk factors, and barriers affecting child health in Kenya.
+This folder contains the detailed documentation for the **Child Health and Vaccination Analysis** project. The documentation explains the analytical process used to explore vaccination coverage, risk factors, and barriers affecting child vaccination and treatment  in Kenya during covid outbreak.
 
 ## Contents
 
