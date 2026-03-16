@@ -1,6 +1,6 @@
 # Covid-child-health-analysis
 
-This repository contains a structured analysis of the impact of COVID-19 on child health, focusing on vaccination coverage and access to treatment. It demonstrates practical SQL skills, data organization, and public health analysis — making it portfolio-ready for data analytics and epidemiology roles.
+This project analyzes child health and vaccination data in Kenya to examine vaccination coverage, barriers to healthcare access, and key socioeconomic risk factors. The analysis is conducted using SQL and focuses on identifying patterns in missed vaccinations and healthcare access challenges. The dataset reflects responses collected during the COVID-19 outbreak, a period when disruptions to routine health services may have affected vaccination uptake and access to healthcare providers.
 
 ## Project Overview
 
