@@ -34,7 +34,9 @@ Tools Used
 Analysis
 
 1.Data Quality Check
+
 Query Objective
+
 Check the dataset for missing values in key variables related to vaccination status and healthcare provider access.
 SQL Query
 
@@ -48,7 +50,7 @@ Explanation
 
 The dataset contains 53 records and no missing values were found in the variables related to vaccination status and provider access. This indicates the dataset is suitable for further analysis.
 
-2.Data Preview
+2.Data Exploration.
     
 Query Objective
 
@@ -56,7 +58,7 @@ Preview the dataset to understand the structure and types of variables available
 
 SQL Query
      
-b_sql_queries/02. Data exploration.sql
+[View Query](../b_sql_queries/02_Data_exploration.sql)
    
 Results snippet.
 
@@ -74,7 +76,7 @@ Identify individuals who missed vaccinations or experienced barriers to healthca
 
 SQL Query
 
-     b_sql_queries/03. Category identification.sql
+[View Query](../b_sql_queries/03_Category_identification.sql)
   
 Results snippet.
 
@@ -98,7 +100,7 @@ Determine how many children who missed vaccines eventually received them and how
 
 SQL Query
 
-     b_sql_queries/04. Missed vaccine coverage.sql
+[View Query](../b_sql_queries/04_Missed_vaccine_coverage.sql)
    
 Results snippet.
 
@@ -112,7 +114,7 @@ Never received missed vaccine: 4
 
 Received missed vaccine: 11
 
-5.Vaccination Status by Region
+5.Missed Vaccination coverage by Region
     
 Query Objective
 
@@ -120,7 +122,7 @@ Analyze vaccination outcomes across geographic regions.
 
 SQL query
 
-     b_sql_queries/05. Missed vaccination coverage by region .sql
+[View Query](../b_sql_queries/05_Missed_vaccination_coverage_by_region.sql)
 
 Results snippet.
 
@@ -130,7 +132,7 @@ Explanation
 
 Regional analysis helps identify geographic disparities in vaccination coverage and recovery of missed vaccines.
 
-6.Late Vaccination Barrier Analysis
+6.Late Vaccination  Analysis
 
 Query Objective
 
@@ -138,7 +140,7 @@ Identify the types of barriers responsible for delayed vaccinations.
 
 SQL query
 
-     b_sql_queries/06. Late vaccination analysis.sql
+[View Query](../b_sql_queries/06_Late_vaccination_analysis.sql)
   
 Results snippet.
 
@@ -146,19 +148,19 @@ Results snippet.
 
 Explanation
 
-The analysis categorizes barriers into direct, indirect, and other barriers based on survey responses.
+The analysis categorizes barriers into direct, indirect and other barriers based on survey responses.
 
-7.No vaccination barrier analysis.
+7.No vaccination b analysis.
  
 SQL query
 
-     b_sql_queries/07. No vaccination analysis.sql
+[View Query](../b_sql_queries/07_No_vaccination_analysis.sql)
   
 Results snippet.
 
 <img width="640" height="48" alt="no vac an" src="https://github.com/user-attachments/assets/c3a14fbe-bc3c-4e51-bb1b-cf7945a23b04" />
 
-8.Socioeconomic Risk Factors
+8.Descriptive Risk Factors Analysis.
  
 Query Objective
 
@@ -166,7 +168,7 @@ Analyze key socioeconomic characteristics including education, employment, and f
 
 SQL query
 
-     b_sql_queries/08. Descriptive risk factor analysis.sql
+[View Query](../b_sql_queries/08_Descriptive_risk_factor_analysis.sql)
   
 Results snippet.
 
@@ -188,7 +190,7 @@ This query identifies children who missed vaccinations not due to late vaccinati
 
 SQL query.
 
-     b_sql_queries/09. Provider barrier analysis.sql
+[View Query](../b_sql_queries/09_Provider_barrier_analysis.sql)
  
 Results snippet.
 
@@ -214,7 +216,7 @@ This query examines the overlap between late vaccination and provider-related ba
 
 SQL query.
 
-     b_sql_queries/10.Barrier overlap analysis.sql
+[View Query](../b_sql_queries/10_Barrier_overlap_analysis.sql)
 
 Results snippet.
 
