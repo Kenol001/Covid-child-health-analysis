@@ -1,17 +1,18 @@
+                          Child Health and Vaccination Analysis Documentation.
+Project Overview.
 
-Child Health and Vaccination Analysis Documentation
-Project Overview
 This project analyzes child health and vaccination data from Kenya to explore vaccination coverage, barriers to healthcare access, and socioeconomic risk factors affecting child health outcomes. The analysis focuses on identifying patterns in missed vaccinations, healthcare provider access, and the influence of social and economic conditions.
 The analysis was conducted in the context of the COVID‑19 outbreak, a period during which healthcare access and routine immunization services were disrupted in many regions. Understanding vaccination delays and barriers during this time provides insights into how public health emergencies affect routine healthcare services.
-Methodology
+                          Methodology
 Dataset
 practice_db.kenya_ihme_prem_ch_health
 The dataset contains survey data related to child health conditions, vaccination status, healthcare access, and demographic and socioeconomic characteristics of households in Kenya.
-Tools Used
+
+                         Tools Used
 - SQL for data cleaning, exploration, and analysis
 - DBeaver / SQL environment for running queries
 - GitHub for version control and project documentation
-Analytical Approach
+                         Analytical Approach
 1. Data Quality Assessment to check for missing values.
 2. Data Exploration to preview the dataset structure.
 3. Vaccination Status Analysis to identify children who missed vaccines.
@@ -23,7 +24,7 @@ Analysis
 Query Objective
 Check the dataset for missing values in key variables related to vaccination status and healthcare provider access.
 SQL Query
-b_sql_queries/01.Data quality check.sql
+
 Results snippet.
 
 Explanation
