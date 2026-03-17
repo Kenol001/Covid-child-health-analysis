@@ -38,7 +38,7 @@ Query Objective
 Check the dataset for missing values in key variables related to vaccination status and healthcare provider access.
 SQL Query
 
-     [01_data_quality_check.sql](../queries/01_data_quality_check.sql)
+[01_data_quality_check.sql](../queries/01_data_quality_check.sql)
 
 Results snippet.
 
@@ -56,7 +56,7 @@ Preview the dataset to understand the structure and types of variables available
 
 SQL Query
      
-    b_sql_queries/02. Data exploration.sql
+b_sql_queries/02. Data exploration.sql
    
 Results snippet.
 
