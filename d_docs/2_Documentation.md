@@ -2,7 +2,7 @@ Health and Vaccination Analysis Documentation.
                           
 Project Overview.
 
-This project analyzes child health and vaccination data from Kenya to explore vaccination coverage, barriers to healthcare access, and socioeconomic risk factors affecting child health outcomes. The analysis focuses on identifying patterns in missed vaccinations, healthcare provider access, and the influence of social and economic conditions.
+This project analyzes child health and vaccination data from Kenya to explore vaccination coverage, barriers to healthcare access and socioeconomic risk factors affecting child health outcomes. The analysis focuses on identifying patterns in missed vaccinations, healthcare provider access and the influence of social and economic conditions.
 
 The analysis was conducted in the context of the COVID‑19 outbreak, a period during which healthcare access and routine immunization services were disrupted in many regions. Understanding vaccination delays and barriers during this time provides insights into how public health emergencies affect routine healthcare services.
 
@@ -10,26 +10,26 @@ Methodology
                           
 Dataset
 
-                         practice_db.kenya_ihme_prem_ch_health
+[kenya_ihme_prem_ch_health_202603140355.csv](../a_data/kenya_ihme_prem_ch_health_202603140355.csv)
                          
-The dataset contains survey data related to child health conditions, vaccination status, healthcare access, and demographic and socioeconomic characteristics of households in Kenya.
+The dataset contains survey data related to child health conditions, vaccination status, healthcare access and demographic and socioeconomic characteristics of households in Kenya.
 
 Tools Used
                          
-- SQL for data cleaning, exploration, and analysis
+- SQL for data cleaning, exploration and analysis
   
 - DBeaver / SQL environment for running queries
   
 - GitHub for version control and project documentation
   
-                         Analytical Approach
+Analytical Approach
   
 1. Data Quality Assessment to check for missing values.
 2. Data Exploration to preview the dataset structure.
 3. Vaccination Status Analysis to identify children who missed vaccines.
 4. Regional Analysis to compare vaccination coverage by geographic location.
 5. Barrier Analysis to identify reasons for missed vaccinations and healthcare access issues.
-6. Socioeconomic Risk Factor Analysis to explore education, employment, and financial conditions.
+6. Socioeconomic Risk Factor Analysis to explore education, employment and financial conditions.
 
 Analysis
 
@@ -37,7 +37,8 @@ Analysis
 
 Query Objective
 
-Check the dataset for missing values in key variables related to vaccination status and healthcare provider access.
+To assess the completeness of the dataset and ensure reliability before conducting further analysis. Missing or null values can affect the validity of findings and interpretations.
+
 SQL Query
 
 [01_data_quality_check.sql](../queries/01_data_quality_check.sql)
@@ -54,7 +55,7 @@ The dataset contains 53 records and no missing values were found in the variable
     
 Query Objective
 
-Preview the dataset to understand the structure and types of variables available for analysis.
+To examine the structure and content of the dataset, understand variable types and validate expected ranges for demographic and health-related fields.
 
 SQL Query
      
@@ -66,14 +67,17 @@ Results snippet.
 
 Explanation
 
-Previewing the data helps confirm the structure of the dataset and identify key variables such as demographics, socioeconomic indicators, child health conditions, and vaccination records.
+The dataset captures children from diverse regions (urban, suburban, rural).
+
+Includes demographic, health condition and service access data.
+
+Variability in provider location and health conditions was noted, which is useful for subgroup analyses.
 
 3.Vaccination category Identification
 
 Query Objective
 
-Identify individuals who missed vaccinations or experienced barriers to healthcare access.
-
+To classify children based on whether they required vaccination or treatment and whether they experienced barriers to accessing care.
 SQL Query
 
 [View Query](../b_sql_queries/03_Category_identification.sql)
@@ -83,20 +87,21 @@ Results snippet.
 <img width="845" height="102" alt="cat" src="https://github.com/user-attachments/assets/89b85154-6648-4d90-a599-a565f2d19ce1" />
 
 Result Summary
+28.3% of children missed vaccination.
 
-Total sample: 53
+7.6% could not access a healthcare provider.
 
-Late vaccine cases: 15
+7.6% experienced both barriers.
 
-Provider access barriers: 4
+64.2% were not affected by either barrier
 
-Neither barrier: 34
+The majority of children were able to access vaccination and healthcare, but a notable subset faced access barriers, highlighting targets for public health interventions.
 
 4.Missed Vaccination Coverage
 
 Query Objective
 
-Determine how many children who missed vaccines eventually received them and how many did not.
+To determine the follow-up vaccination status among children who initially missed or were late for vaccination.
 
 SQL Query
 
@@ -106,19 +111,24 @@ Results snippet.
 
 <img width="465" height="60" alt="missed vac cov" src="https://github.com/user-attachments/assets/acc25fd3-f149-4615-af6f-550807617b84" />
 
-Result Summary
+Key Findings
 
-Total missed: 15
+Total children who missed vaccination: 15
 
-Never received missed vaccine: 4
+11 (73.3%) received the missed vaccine
 
-Received missed vaccine: 11
+4 (26.7%) never received the missed vaccine
+
+Interpretation
+
+While most children eventually received vaccination, approximately one in four remained unvaccinated, indicating potential gaps in follow-up or healthcare delivery.
+
 
 5.Missed Vaccination coverage by Region
     
 Query Objective
 
-Analyze vaccination outcomes across geographic regions.
+To examine geographic disparities in vaccination coverage among children.
 
 SQL query
 
@@ -128,15 +138,22 @@ Results snippet.
 
 <img width="686" height="111" alt="missed vac cov r" src="https://github.com/user-attachments/assets/27c591c4-a50b-465f-a958-ba3db122ed89" />
 
-Explanation
+Key Findings.
 
-Regional analysis helps identify geographic disparities in vaccination coverage and recovery of missed vaccines.
+City: 25% received missed vaccines, 75% did not
+
+Rural: 16.7% received, 83.3% did not
+
+Suburban: 18.5% received, 81.5% did not
+Interpretation
+
+Rural and suburban regions had higher proportions of children not receiving missed vaccines compared to urban areas, highlighting geographic inequalities in vaccination access.
 
 6.Late Vaccination  Analysis
 
 Query Objective
 
-Identify the types of barriers responsible for delayed vaccinations.
+To understand reasons for late or missed vaccinations and classify them into actionable categories for public health planning.
 
 SQL query
 
@@ -145,10 +162,19 @@ SQL query
 Results snippet.
 
 <img width="637" height="47" alt="late vac an" src="https://github.com/user-attachments/assets/39011148-8c73-4e4a-ab30-8fa80986b9ed" />
+Key findings
+
+Total children with late vaccination: 11
+
+Direct barriers: 7 children (63.6%)
+
+Indirect barriers: 0 children (0%)
+
+Other barriers: 6 children (54.5%)
 
 Explanation
 
-The analysis categorizes barriers into direct, indirect and other barriers based on survey responses.
+Most delays were due to direct access issues, suggesting that improving immediate service availability and outreach could reduce missed vaccinations. Other less common reasons also contributed and may need targeted interventions.
 
 7.No vaccination b analysis.
  
@@ -164,7 +190,7 @@ Results snippet.
  
 Query Objective
 
-Analyze key socioeconomic characteristics including education, employment, and financial status.
+Analyze key socioeconomic characteristics including education, employment and financial status.
 
 SQL query
 
