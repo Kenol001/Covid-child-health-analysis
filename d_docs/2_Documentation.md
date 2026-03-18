@@ -213,7 +213,7 @@ To describe the distribution of key socioeconomic risk factors (education, emplo
 
 SQL query
 
-[View Query](../b_sql_queries/08_Descriptive_risk_factor_analysis.sql)
+[View Query](../b_sql_queries/08.Descriptive_risk_factor_analysis.sql)
   
 Results snippet.
 
