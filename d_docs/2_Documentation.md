@@ -1,5 +1,7 @@
 Health and Vaccination Analysis Documentation.
-                          
+
+NOTE THAT THE RESULTS FOR THE QUERIES CAN BE FOUND AT c_results FOLDER.
+
 Project Overview.
 
 This project analyzes child health and vaccination data from Kenya to explore vaccination coverage, barriers to healthcare access and socioeconomic risk factors affecting child health outcomes. The analysis focuses on identifying patterns in missed vaccinations, healthcare provider access and the influence of social and economic conditions.
@@ -215,7 +217,8 @@ SQL query
   
 Results snippet.
 
-<img width="382" height="253" alt="sec" src="https://github.com/user-attachments/assets/ac9a4509-0314-4d7a-ad82-bac20883ea4f" />
+<img width="703" height="195" alt="descriptive" src="https://github.com/user-attachments/assets/f5e9af33-fd06-4429-b0d1-8573a025ee4e" />
+
 
 Key Findings
 
