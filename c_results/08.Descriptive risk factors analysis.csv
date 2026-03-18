@@ -1,0 +1,8 @@
+"variable","category","total","never_received_count","perc_never_received","provider_issue_count","perc_provider_issue"
+Education,High education,8,2,25.0,4,50.0
+Education,Medium education,7,2,28.6,0,0.0
+Employment,Employed,7,2,28.6,1,14.3
+Employment,Other,3,1,33.3,2,66.7
+Employment,Unemployed,5,1,20.0,1,20.0
+Financial status,Can afford,9,1,11.1,2,22.2
+Financial status,Moderate,6,3,50.0,2,33.3
