@@ -136,7 +136,7 @@ To examine geographic disparities in vaccination coverage among children.
 
 SQL query
 
-[View Query](../b_sql_queries/05_Missed_vaccination_coverage_by_region.sql)
+[View Query](../b_sql_queries/06_Late_vaccination_analysis.sql)
 
 Results snippet.
 
