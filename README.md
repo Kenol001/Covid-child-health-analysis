@@ -18,7 +18,7 @@ The analyses focus on:
 ## Skills Demonstrated
 
 - Writing and executing SQL queries for real-world public health datasets.
-- Data cleaning, preparation, and organization for analysis.
+- Data cleaning, preparation and organization for analysis.
 - Exploratory and comparative analysis of vaccination and treatment trends.
 - Professional documentation and portfolio presentation.
 
