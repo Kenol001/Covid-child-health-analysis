@@ -89,6 +89,7 @@ Results snippet.
 <img width="845" height="102" alt="cat" src="https://github.com/user-attachments/assets/89b85154-6648-4d90-a599-a565f2d19ce1" />
 
 Result Summary
+
 28.3% (n = 15) of children missed vaccination.
 
 7.6% (n = 4) could not access a healthcare provider.
@@ -163,6 +164,7 @@ SQL query
 Results snippet.
 
 <img width="637" height="47" alt="late vac an" src="https://github.com/user-attachments/assets/39011148-8c73-4e4a-ab30-8fa80986b9ed" />
+
 Key findings
 
 Total children with late vaccination: 11
@@ -210,7 +212,7 @@ COVID-19 likely disrupted immediate access to vaccination, while some obstacles 
  
 Query Objective
 
-To describe the distribution of key socioeconomic risk factors (education, employment, and financial status) in the study population.
+To describe the distribution of key socioeconomic risk factors (education, employment and financial status) in the study population.
 
 SQL query
 
@@ -223,7 +225,7 @@ Results snippet.
 
 Key Findings
 
-COVID-19 disrupted child health services unevenly across socioeconomic groups. Children from moderate-income households had the highest missed vaccination (50%) and elevated provider barriers (33%), while those from households able to afford basics had the lowest. High education did not fully protect against service disruptions, with 50% experiencing provider barriers, and unstable or informal employment showed the highest access challenges (66.7%)
+COVID-19 disrupted child health services unevenly across socioeconomic groups. Children from moderate-income households had the highest missed vaccination (50%) and elevated provider barriers (33%), while those from households able to afford basics had the lowest. High education did not fully protect against service disruptions, with 50% experiencing provider barriers and unstable or informal employment showed the highest access challenges (66.7%)
 
 Interpretation
 
@@ -243,17 +245,6 @@ Results snippet.
 
 <img width="635" height="54" alt="prov barrier an" src="https://github.com/user-attachments/assets/8340fdfe-4468-49f8-b029-612b445a7123" />
 
-Methods
-
-Children without late vaccination (late_vaccine_flag = 0) but with reported provider issues were included. Barriers were categorized into:
-
-Direct barriers (e.g., immediate access issues)
-
-Indirect barriers (system inefficiencies)
-
-Other barriers
-
-Binary indicators were generated and summarized using counts and percentages.
 
 Key Findings
 
