@@ -98,6 +98,7 @@ Result Summary
 64.2% (n = 34) were not affected by either barrier
 
 Interpretation.
+
 Approximately 28% of children experienced delayed or missed vaccination, reflecting pandemic-related service disruptions. A smaller subset (7.6%) could not access treatment from providers, while another 7.6% faced both vaccination delays and access barriers, indicating compounded vulnerability during COVID-19. The majority (64%) were unaffected, suggesting some resilience in healthcare delivery.
 
 4.Missed Vaccination Coverage
