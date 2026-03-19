@@ -10,7 +10,7 @@ The analyses focus on:
 - Insights derived from structured public health datasets.
 
 ## Repository Structure
-- `data/` → CSV tables and structured datasets used in the analyses.
+- `data/` → CSV tables, codebook and structured datasets used in the analyses.
 - `sql/` → SQL queries used to analyze vaccination and treatment data.
 - `docs/` → Project notes, reports, or visualizations summarizing findings.
 
