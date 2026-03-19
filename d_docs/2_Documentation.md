@@ -43,7 +43,7 @@ To assess the completeness of the dataset and ensure reliability before conducti
 
 SQL Query
 
-[01_data_quality_check.sql](../queries/01_data_quality_check.sql)
+[View Query](../b_sql_queries/01_Data_quality_check.sql)
 
 Results snippet.
 
@@ -158,7 +158,7 @@ To understand reasons for late or missed vaccinations and classify them into act
 SQL query
 
 [View Query](../b_sql_queries/06_Late_vaccination_analysis.sql)
-  
+
 Results snippet.
 
 <img width="637" height="47" alt="late vac an" src="https://github.com/user-attachments/assets/39011148-8c73-4e4a-ab30-8fa80986b9ed" />
